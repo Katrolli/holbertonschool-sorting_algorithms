@@ -1,15 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "sort.h"
-
-void swap(int *array, int j)
-{
-    int tmp;
-
-    tmp = array[j];
-    array[j] = array[j + 1];
-    array[j + 1] = tmp;
-}
 /**
  * print_array - Prints an array of integers
  *

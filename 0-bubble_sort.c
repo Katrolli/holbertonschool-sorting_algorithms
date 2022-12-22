@@ -1,4 +1,12 @@
 #include "sort.h"
+void swap(int *array, int j)
+{
+    int tmp;
+
+    tmp = array[j];
+    array[j] = array[j + 1];
+    array[j + 1] = tmp;
+}
 
 void bubble_sort(int *array, size_t size)
 {
