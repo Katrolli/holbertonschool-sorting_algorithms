@@ -3,7 +3,7 @@ void insertion_sort_list(listint_t **list)
 {
     listint_t *tmp;
 
-    if (*list == NULL)
+    if (list == NULL)
         return;
     tmp = (*list)->next;
     while (tmp)
